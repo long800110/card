@@ -1,0 +1,428 @@
+::selection
+{
+	background: transparent;
+}
+.desktop {
+	display: block;
+	width: 1200px;
+	height: 1000px;
+	background: rgb(2, 97, 2);
+	//background: #eee;
+	border: 1px solid #222;
+	overflow: hidden;
+}
+.part1 {
+	width: 1000px;
+	height: 155px;
+	margin-top: 32px;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+}
+.stack{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 145px;
+	border-radius: 9px;
+	//background: green;
+	border: 1px solid #fff;
+	overflow: hidden;
+}
+.show-card{
+	position: relative;
+	margin-left: 50px;
+	display: inline-block;
+	height: 145px;
+}
+
+.result {
+	display: inline-block;
+	float: right;
+}
+.result > ul > li {
+	position: relative;
+	float: right;
+	margin-left: 25px;
+	width: 102px;
+	height: 147px;
+	border-radius: 9px;
+	border: 1px solid #fff;
+	//border: 1px solid #111;
+	
+}
+
+.part2 {
+	//background: white;
+	margin-top: 100px;
+	margin-left: 108px;
+	
+}
+
+.part2 > ul > li {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 500px;
+	margin-left: 18px;
+	margin-right: 18px;
+	border-radius: 9px;
+	//border: 1px solid #fff;
+}
+
+.card {
+	position: relative;
+	width: 100px;
+	height: 145px;
+	border-radius: 9px;
+	border: 1px solid #222;
+	z-index: 10;
+	background-color: #ddd;
+
+}
+
+.card-wrapper {
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    height: auto;
+}
+
+
+
+
+.card.c1.ca {
+	background: url(../imgs/1-a.jpg) no-repeat center center;
+}
+.card.c1.cb {
+	background: url(../imgs/1-b.jpg) no-repeat center center;
+}
+.card.c1.cc {
+	background: url(../imgs/1-c.jpg) no-repeat center center;
+}
+.card.c1.cd {
+	background: url(../imgs/1-d.jpg) no-repeat center center;
+}
+.card.c2.ca {
+	background: url(../imgs/2-a.jpg) no-repeat center center;
+}
+.card.c2.cb {
+	background: url(../imgs/2-b.jpg) no-repeat center center;
+}
+.card.c2.cc {
+	background: url(../imgs/2-c.jpg) no-repeat center center;
+}
+.card.c2.cd {
+	background: url(../imgs/2-d.jpg) no-repeat center center;
+}
+.card.c3.ca {
+	background: url(../imgs/3-a.jpg) no-repeat center center;
+}
+.card.c3.cb {
+	background: url(../imgs/3-b.jpg) no-repeat center center;
+}
+.card.c3.cc {
+	background: url(../imgs/3-c.jpg) no-repeat center center;
+}
+.card.c3.cd {
+	background: url(../imgs/3-d.jpg) no-repeat center center;
+}
+.card.c4.ca {
+	background: url(../imgs/4-a.jpg) no-repeat center center;
+}
+.card.c4.cb {
+	background: url(../imgs/4-b.jpg) no-repeat center center;
+}
+.card.c4.cc {
+	background: url(../imgs/4-c.jpg) no-repeat center center;
+}
+.card.c4.cd {
+	background: url(../imgs/4-d.jpg) no-repeat center center;
+}
+.card.c5.ca {
+	background: url(../imgs/5-a.jpg) no-repeat center center;
+}
+.card.c5.cb {
+	background: url(../imgs/5-b.jpg) no-repeat center center;
+}
+.card.c5.cc {
+	background: url(../imgs/5-c.jpg) no-repeat center center;
+}
+.card.c5.cd {
+	background: url(../imgs/5-d.jpg) no-repeat center center;
+}
+.card.c6.ca {
+	background: url(../imgs/6-a.jpg) no-repeat center center;
+}
+.card.c6.cb {
+	background: url(../imgs/6-b.jpg) no-repeat center center;
+}
+.card.c6.cc {
+	background: url(../imgs/6-c.jpg) no-repeat center center;
+}
+.card.c6.cd {
+	background: url(../imgs/6-d.jpg) no-repeat center center;
+}
+.card.c7.ca {
+	background: url(../imgs/7-a.jpg) no-repeat center center;
+}
+.card.c7.cb {
+	background: url(../imgs/7-b.jpg) no-repeat center center;
+}
+.card.c7.cc {
+	background: url(../imgs/7-c.jpg) no-repeat center center;
+}
+.card.c7.cd {
+	background: url(../imgs/7-d.jpg) no-repeat center center;
+}
+.card.c8.ca {
+	background: url(../imgs/8-a.jpg) no-repeat center center;
+}
+.card.c8.cb {
+	background: url(../imgs/8-b.jpg) no-repeat center center;
+}
+.card.c8.cc {
+	background: url(../imgs/8-c.jpg) no-repeat center center;
+}
+.card.c8.cd {
+	background: url(../imgs/8-d.jpg) no-repeat center center;
+}
+.card.c9.ca {
+	background: url(../imgs/9-a.jpg) no-repeat center center;
+}
+.card.c9.cb {
+	background: url(../imgs/9-b.jpg) no-repeat center center;
+}
+.card.c9.cc {
+	background: url(../imgs/9-c.jpg) no-repeat center center;
+}
+.card.c9.cd {
+	background: url(../imgs/9-d.jpg) no-repeat center center;
+}
+.card.c10.ca {
+	background: url(../imgs/10-a.jpg) no-repeat center center;
+}
+.card.c10.cb {
+	background: url(../imgs/10-b.jpg) no-repeat center center;
+}
+.card.c10.cc {
+	background: url(../imgs/10-c.jpg) no-repeat center center;
+}
+.card.c10.cd {
+	background: url(../imgs/10-d.jpg) no-repeat center center;
+}
+.card.c11.ca {
+	background: url(../imgs/11-a.jpg) no-repeat center center;
+}
+.card.c11.cb {
+	background: url(../imgs/11-b.jpg) no-repeat center center;
+}
+.card.c11.cc {
+	background: url(../imgs/11-c.jpg) no-repeat center center;
+}
+.card.c11.cd {
+	background: url(../imgs/11-d.jpg) no-repeat center center;
+}
+.card.c12.ca {
+	background: url(../imgs/12-a.jpg) no-repeat center center;
+}
+.card.c12.cb {
+	background: url(../imgs/12-b.jpg) no-repeat center center;
+}
+.card.c12.cc {
+	background: url(../imgs/12-c.jpg) no-repeat center center;
+}
+.card.c12.cd {
+	background: url(../imgs/12-d.jpg) no-repeat center center;
+}
+.card.c13.ca {
+	background: url(../imgs/13-a.jpg) no-repeat center center;
+}
+.card.c13.cb {
+	background: url(../imgs/13-b.jpg) no-repeat center center;
+}
+.card.c13.cc {
+	background: url(../imgs/13-c.jpg) no-repeat center center;
+}
+.card.c13.cd {
+	background: url(../imgs/13-d.jpg) no-repeat center center;
+}
+
+#card-stack {
+	position: relative;
+    width: 100px;
+    height: 145px;
+    border-radius: 9px;
+    border: 1px solid #222;
+    z-index: 10;
+    background: url(../imgs/back.jpg) no-repeat center center !important;
+    //background-color: #666;
+}
+.card.c-back {
+    //background-color: #666;
+	background: url(../imgs/back.jpg) no-repeat center center !important;
+}
+
+/*
+.card.c-back:after {
+    content: "" !important;
+}
+
+
+.card.c1.ca:after {
+   content: "A 1";
+}
+.card.c1.cb:after {
+    content: "B 1";
+}
+.card.c1.cc:after {
+    content: "C 1";
+}
+.card.c1.cd:after {
+    content: "D 1";
+}
+.card.c2.ca:after {
+    content: "A 2";
+}
+.card.c2.cb:after {
+    content: "B 2";
+}
+.card.c2.cc:after {
+    content: "C 2";
+}
+.card.c2.cd:after {
+    content: "D 2";
+}
+.card.c3.ca:after {
+    content: "A 3";
+}
+.card.c3.cb:after {
+    content: "B 3";
+}
+.card.c3.cc:after {
+    content: "C 3";
+}
+.card.c3.cd:after {
+    content: "D 3";
+}
+.card.c4.ca:after {
+    content: "A 4";
+}
+.card.c4.cb:after {
+    content: "B 4";
+}
+.card.c4.cc:after {
+    content: "C 4";
+}
+.card.c4.cd:after {
+    content: "D 4";
+}
+.card.c5.ca:after {
+    content: "A 5";
+}
+.card.c5.cb:after {
+    content: "B 5";
+}
+.card.c5.cc:after {
+    content: "C 5";
+}
+.card.c5.cd:after {
+    content: "D 5";
+}
+.card.c6.ca:after {
+    content: "A 6";
+}
+.card.c6.cb:after {
+    content: "B 6";
+}
+.card.c6.cc:after {
+    content: "C 6";
+}
+.card.c6.cd:after {
+    content: "D 6";
+}
+.card.c7.ca:after {
+    content: "A 7";
+}
+.card.c7.cb:after {
+    content: "B 7";
+}
+.card.c7.cc:after {
+    content: "C 7";
+}
+.card.c7.cd:after {
+    content: "D 7";
+}
+.card.c8.ca:after {
+    content: "A 8";
+}
+.card.c8.cb:after {
+    content: "B 8";
+}
+.card.c8.cc:after {
+    content: "C 8";
+}
+.card.c8.cd:after {
+    content: "D 8";
+}
+.card.c9.ca:after {
+    content: "A 9";
+}
+.card.c9.cb:after {
+    content: "B 9";
+}
+.card.c9.cc:after {
+    content: "C 9";
+}
+.card.c9.cd:after {
+    content: "D 9";
+}
+.card.c10.ca:after {
+    content: "A 10";
+}
+.card.c10.cb:after {
+    content: "B 10";
+}
+.card.c10.cc:after {
+    content: "C 10";
+}
+.card.c10.cd:after {
+    content: "D 10";
+}
+.card.c11.ca:after {
+    content: "A J";
+}
+.card.c11.cb:after {
+    content: "B J";
+}
+.card.c11.cc:after {
+    content: "C J";
+}
+.card.c11.cd:after {
+    content: "D J";
+}
+.card.c12.ca:after {
+    content: "A Q";
+}
+.card.c12.cb:after {
+    content: "B Q";
+}
+.card.c12.cc:after {
+    content: "C Q";
+}
+.card.c12.cd:after {
+    content: "D Q";
+}
+.card.c13.ca:after {
+    content: "A K";
+}
+.card.c13.cb:after {
+    content: "B K";
+}
+.card.c13.cc:after {
+    content: "C K";
+}
+.card.c13.cd:after {
+    content: "D K";
+}
+*/
